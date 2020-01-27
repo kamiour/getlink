@@ -15,6 +15,10 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url(../images/bg-secondary.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 figure {
@@ -26,10 +30,8 @@ figure {
 
 .container {
   min-height: 100%;
-  background-image: url(../images/bg-secondary.svg);
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 1710px;
+  margin: 0 auto;
   padding: 0 80px 0 150px;
   display: flex;
   flex-direction: column;
